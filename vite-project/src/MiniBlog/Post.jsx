@@ -9,7 +9,7 @@ const Post = () => {
 ];
 
     const {id} = useParams();
-    const post = blog.find((p)=>p.id === parseInt(id));
+    const post = blog.find(p=>p.id === parseInt(id));
     if(!post) return <p>post not found</p>
   return (
     <div>

@@ -5,6 +5,7 @@ import DarkMode_LightMode from './DarkMode_LightMode';
 import Accordion from './Accordion/Accordion';
 import Post from './MiniBlog/Post';
 import BlogList from './MiniBlog/BlogList';
+import Apps from './Shopping cart ui/Apps';
 const App = () => {
   return (
     <Router>
@@ -14,6 +15,7 @@ const App = () => {
         <Route path='/accordion' element={<Accordion/>}/>
         <Route path='/mini' element={<BlogList/>}/>
         <Route path='/post/:id' element={<Post/>}/>
+        <Route path='/shoppingcart' element={<Apps/>}/>
       </Routes>
     </Router>
   )
