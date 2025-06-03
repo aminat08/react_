@@ -20,8 +20,8 @@ const WeatherApp = () => {
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
       );
       setData(res.data);
-    } catch (err) {
-      setError('City not found. Please try again.');
+    } catch (error) {
+      setError('City not found. Please try again.',error);
     } finally {
       setLoading(false);
     }
