@@ -8,6 +8,7 @@ import BlogList from './MiniBlog/BlogList';
 import Apps from './Shopping cart ui/Apps';
 import WeatherApp from './WeatherApp/WeatherApp';
 import Feedback from './controllingformandfeedback.jsx/feedback';
+import ProductFilter from './controllingformandfeedback.jsx/ProductFilter';
 const App = () => {
   return (
     <Router>
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='/shoppingcart' element={<Apps/>}/>
         <Route path='/weather' element={<WeatherApp/>}/>
         <Route path='/feedback' element={<Feedback/>}/>
+        <Route path='/productfilter' element={<ProductFilter/>}/>
       </Routes>
     </Router>
   )
