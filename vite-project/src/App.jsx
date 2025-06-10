@@ -10,6 +10,8 @@ import WeatherApp from './WeatherApp/WeatherApp';
 import Feedback from './controllingformandfeedback.jsx/feedback';
 import ProductFilter from './controllingformandfeedback.jsx/ProductFilter';
 import BuildShoppingCart from './controllingformandfeedback.jsx/BuildShoppingCart';
+import FormHandling from './controllingformandfeedback.jsx/PracticeReact/FormHandling';
+import Shoppingcart from './controllingformandfeedback.jsx/PracticeReact/Shoppingcart';
 const App = () => {
   return (
     <Router>
@@ -24,6 +26,8 @@ const App = () => {
         <Route path='/feedback' element={<Feedback/>}/>
         <Route path='/productfilter' element={<ProductFilter/>}/>
         <Route path='/shoppingcarts' element={<BuildShoppingCart/>}/>
+        <Route path='/formhandling' element={<FormHandling/>}/>
+        <Route path='/shoppingcart' element={<Shoppingcart/>}/>
       </Routes>
     </Router>
   )
