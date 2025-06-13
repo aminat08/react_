@@ -12,6 +12,7 @@ import ProductFilter from './controllingformandfeedback.jsx/ProductFilter';
 import BuildShoppingCart from './controllingformandfeedback.jsx/BuildShoppingCart';
 import FormHandling from './controllingformandfeedback.jsx/PracticeReact/FormHandling';
 import Shoppingcart from './controllingformandfeedback.jsx/PracticeReact/Shoppingcart';
+import Feedbacks from './Feedback2/Feedbacks';
 const App = () => {
   return (
     <Router>
@@ -25,9 +26,10 @@ const App = () => {
         <Route path='/weather' element={<WeatherApp/>}/>
         <Route path='/feedback' element={<Feedback/>}/>
         <Route path='/productfilter' element={<ProductFilter/>}/>
-        <Route path='/shoppingcarts' element={<BuildShoppingCart/>}/>
+        <Route path='/shoppingcartss' element={<BuildShoppingCart/>}/>
         <Route path='/formhandling' element={<FormHandling/>}/>
-        <Route path='/shoppingcart' element={<Shoppingcart/>}/>
+        <Route path='/shoppingcar~' element={<Shoppingcart/>}/>
+        <Route path='/feedbacksss' element={<Feedbacks/>} />
       </Routes>
     </Router>
   )
